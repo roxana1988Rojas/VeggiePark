@@ -326,6 +326,15 @@ div.imagen:hover {
     margin-bottom: 10%;
 
 }
+.localizacioneschef {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
 
 .cajita-texto {
