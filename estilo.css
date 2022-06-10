@@ -294,10 +294,11 @@ div.imagen:hover {
 
 /* Aqui termina la seccion localizaciones*/
 .container-pie-pagina {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
     display: block;
-
 
 }
 
@@ -327,7 +328,6 @@ div.imagen:hover {
 }
 
 
-
 .cajita-texto {
     display: flex;
     flex-wrap: wrap;
@@ -336,6 +336,11 @@ div.imagen:hover {
     justify-content: center;
     align-items: center;
     width: 267px;
+}
+
+.imagenfooter {
+    text-align: center;
+
 }
 
 @media (max-width: 983px) {
@@ -451,6 +456,10 @@ div.imagen:hover {
         margin-top: 8%;
         color: white;
         text-align: center;
+    }
+
+    .imagenfooter {
+        display: none;
     }
 
     #valoreschef {
