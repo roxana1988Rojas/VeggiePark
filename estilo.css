@@ -474,3 +474,36 @@ div.imagen:hover {
         display: none
     }
 }
+.bodydereserva{
+    background-image:image();
+    font-family: 'Mali',cursive;
+}
+
+.form_box{
+    
+    width: 90%;
+    margin: auto;
+    max-width:400%;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form__title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 4em;
+}
+
+.form__input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em, 1em;
+    outline: none;
+    border-radius: 0.2em;
+}
+
+
+.form__cta {
+    font-family: inherit;
+}
+
