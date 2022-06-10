@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Mali:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+
+    <title>Veggie Park</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Navbar -->
+        <nav>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <!-- Icono de la hamburguesa que importamos de Font Awesome, tomate, hamburguesa en vez de las 3 rayas -->
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <label class="logo">Veggie Park</label>
+            <ul>
+                <li><img class="logovsresponsive" src="img/logo.png">
+                </li>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="chefs.html" target="_blank">Chefs</a></li>
+                <li><a href="#ubicaciones">Ubicación</a></li>
+                <!-- El icono del telefono -->
+                <li><a href="reservar.html">Reservar</a>
+                    <!--Llamar sin necesidad de llenar el formulario-->
+                <li><a href="tel:687221045"><i class="fa fa-phone"></i></a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Banner titulo y slogan-->
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="slide-item">
+                    <img src="img/uno.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/dos.png">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/tres.png" />
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <!-- Foto de la comida mas especial  y Filosofia -->
+        <section class="localizaciones">
+            <img class="img-flex" src="img/filosofia_platanos.png" alt="filosofia">
+            <img class="img-flex" src="img/filosofia_hamburguesa.png" alt="filosofia">
+            <div class="cajita-texto">
+                <p>VEGGI TROPICAL sí... ¡Leíste bien vegetariano y delicioso!
+                    ¡Solo para paladares extrovertidos!
+                </p>
+                </p>
+                <a href="contacto.html">
+                    <img alt="Reservar" src="img/reservar.png" width="180">
+                </a>
+            </div>
+        </section>
+
+
+        <section>
+
+
+            <!-- Menu -->
+
+            <a name="menu" />
+
+            <div class="mimenu">
+
+                <h2 class="mno">Menú</h2>
+
+                <h3 class="mno">Ensaladas</h3>
+
+                <div class="seccion-img">
+
+                    <div class="imagen">
+                        <img src="img/Ensalada de adamame y flores .jpg" alt="">
+                        <p>Ensalada de Edamame y flores</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Ensalada de aguacate y frutos del bosque.jpg" alt="">
+                        <p>Ensalada de aguacate y frutos del bosque</p>
+                    </div>
+
+
+                    <div class="imagen">
+                        <img src="img/Ensalada de flores.jpg" alt="">
+                        <p>Ensalada de flores</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Nachos con guacamole.jpg" alt="">
+                        <p>Nachos con guacamole</p>
+                    </div>
+
+                </div>
+
+                <h3 class="mno">Platos principales</h3>
+
+                <div class="seccion-img">
+
+                    <div class="imagen">
+                        <img src="img/Pizza napolitana.jpg" alt="">
+                        <p>Pizza napolitana</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Patata asada con verduras y  mozzarella.jpg" alt="">
+                        <p>Patata rellena con verduras y mozzarella</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Vegetales asados pp4.jpg" alt="">
+                        <p>Verduras asadas</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Platano macho con verduras carne vegana y queso.jpg" alt="">
+                        <p>Plátano macho con carne vegana, verduras y mozzarella</p>
+                    </div>
+                </div>
+                <div class="seccion-img">
+                    <div class="imagen">
+                        <img src="img/Macarrones salteados con tomate albahaca y parmesa.jpg" alt="">
+                        <p> Macarrones salteados con tomate albahaca y queso parmesano</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Tacos de carne vegana .jpg" alt="">
+                        <p>Tacos de carne vegana</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Amburguesa de carne vegana.jpg" alt="">
+                        <p>Hamburguesa de carne vegana</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Piña rellena de arroz verduras y frutos secos.jpg" alt="">
+                        <p>Piña rellena de arroz con verduras y frutos secos</p>
+                    </div>
+
+                </div>
+
+                <h3 class="mno">Postres</h3>
+
+                <div class="seccion-img">
+
+                    <div class="imagen">
+                        <img src="img/Tarta de anacardos   .jpg" alt="">
+                        <p>Tarta de pistacho</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Helado de mango.jpg" alt="">
+                        <p>Helado de mango</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Piña asada con helado de vainilla.jpg" alt="">
+                        <p>Piña asada con helado de vainilla</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Mousse de fruta de la pasion.jpg" alt="">
+                        <p>Mousse de fruta de la pasión</p>
+                    </div>
+
+                </div>
+
+                <h3 class="mno">Cócteles</h3>
+
+                <div class="seccion-img">
+
+                    <div class="imagen">
+                        <img src="img/Coctel de frutos rojos.jpg" alt="">
+                        <p>Cóctel de frutos rojos</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Coctel blue curacao.jpg" alt="">
+                        <p>Cóctel Blue Curacao</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Coctel de ruibarbo.jpg" alt="">
+                        <p>Cóctel de ruibarbo</p>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="img/Coctel de arandanos.jpg" alt="">
+                        <p>Cóctel de arandanos</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Localizaciones - Cris -->
+        <a name="ubicaciones" />
+        <section class="localizaciones">
+
+            <div class="cajita-texto">
+                <h3 class="centro-comercial">Centro Comercial Madrid Río 2, Madrid</h3>
+                <p class="direccion">Paseo de la Chopera, 20. Planta baja, 28045 Madrid.</p>
+                <p class="telefono">Llámanos a: 687 22 10 45</p>
+            </div>
+
+            <img class="img-flex" src="img/local-1.jpg" alt="Foto Local">
+            <img class="img-flex" src="img/local-3.jpg" alt="Foto Local">
+            <img class="img-flex" src="img/local-2.jpg" alt="Foto Local">
+
+        </section>
+
+
+
+        <!-- Chefs, nuestros valores - Roxana -->
+        <section class="localizaciones">
+
+            <img class="img-flex" src="img/valores-chef.jpg" alt="valores">
+
+            <div class="cajita-texto">
+
+                <p> ¡Y por acá nuestro ingrediente secreto!
+                    ¡Un grupete que AMA a los ANIMALES y que no necesita usar su carne para crear una comida
+                    deliciosa!
+                </p>
+                <p>
+                    <a href="contacto.html">
+                        <img alt="Reservar" src="img/reservar.png" width="200">
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+        <div class="container-pie-pagina">
+            <img src="img/footer.png" alt="footer" class="Pedidos-y-Reservas">
+
+
+            <p class="footer-line">Lunes a viernes de 12:00-23:30/Sábado y domingo de 12:00 a 00:00
+            </p>
+            <p class="footer-line">Dirección: Centro Comercial Madrid Río 2. Paseo de la Chopera, 20. Planta baja,
+                28045. Madrid. Teléfono: 687221045
+            </p>
+            <p class="footer-line">© 2022 VEGGIE PARK GROUP S.L. - Todos los derechos reservados
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
