@@ -391,6 +391,10 @@ div.imagen:hover {
         text-align: center;
     }
 
+    .imagenfooter {
+        display: none;
+    }
+
 }
 
 @media (max-width: 915px) {
